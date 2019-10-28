@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="suiteName" value="Dorman"/>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.dorman.image.tests.SalesMainDash_Scenario1_Test">
+        <methods>
+          <include name="dormanproducts_salesmaindash_Scenario1_qa"/>
+          <include name="dormanproducts_salesmaindash_Scenario1_Stage"/>
+          <include name="InitilizeWDClassObject"/>
+        </methods>
+      </class> <!-- com.dorman.image.tests.SalesMainDash_Scenario1_Test -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
